@@ -1,0 +1,2 @@
+scp -i Info5059Keys2.pem casestudy-0.0.1-SNAPSHOT.jar ec2-user@ec2-54-159-26-235.compute-1.amazonaws.com:/home/ec2-user
+scp -i Info5059Keys2.pem dockerfile ec2-user@ec2-54-159-26-235.compute-1.amazonaws.com:/home/ec2-user

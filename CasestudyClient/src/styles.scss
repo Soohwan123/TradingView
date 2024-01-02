@@ -1,0 +1,71 @@
+@use '@angular/material' as mat;
+@import "./custom-theme.scss";
+
+.my-primary-text {
+  color: mat.get-color-from-palette($my-primary);
+}
+
+.my-accent-text {
+  color: mat.get-color-from-palette($my-accent);
+}
+
+.margin-right-2 {
+  margin-right: 2vw !important;
+}
+
+.margin-top-5 {
+  margin-top: 5vh !important;
+}
+
+.msg-font-and-align {
+  font-size: 6px; /* Set the font size to 9 */
+  text-align: right; /* Align text to the right */
+}
+
+.padtop15 {
+  padding-top: 15vh;
+}
+
+.padtop70 {
+  padding-top: 70vh;
+  text-align: left;
+}
+
+.material-icons.addicon {
+  font-size: 15vw;
+  position: absolute;
+  bottom: 5vh;
+  right: 5vw;
+  padding: 10vw;
+}
+
+.mat-mdc-row:nth-child(odd){
+  background-color:#eeeeee;
+  text-align: center;
+}
+
+.mat-mdc-row.ng-star-inserted:nth-child(even) {
+  background-color: white;
+  text-align: center;
+}
+
+.center-content {
+  text-align: center !important;
+  margin: auto !important;
+}
+
+.right-content {
+  text-align: right !important;
+}
+
+mat-form-field { margin-left:5%;width:90% }
+
+mat-list-item:nth-child(odd){
+  background-color:white;
+}
+
+mat-list-item:nth-child(even) {
+  background-color:#eeeeee;
+}
+
+
